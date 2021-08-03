@@ -1,0 +1,21 @@
+.item-view-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding-left: 250px;
+  z-index: -3;
+}
+.item-view-search-input {
+  margin: 120px auto 30px auto;
+  width: 40rem;
+}
+@media (max-width: 1000px) {
+  .item-view-container {
+    padding: 20px;
+  }
+  .item-view-search-input {
+    width: 100%;
+    margin: 95px auto 15px auto;
+  }
+}

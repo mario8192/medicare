@@ -1,0 +1,27 @@
+.sidebar-container .dropdown .dropdown-menu {
+  position: relative !important;
+  max-width: 12rem !important;
+  transform: translate(20px, -5px) !important;
+  background-color: transparent;
+  border: none;
+}
+
+.sidebar-container .dropdown {
+  padding: 8px 0;
+}
+
+.sidebar-container button {
+  width: 100%;
+  text-align: left;
+  padding: 5px 25px;
+}
+
+.sidebar-container .dropdown .dropdown-item {
+  color: #2f3338;
+  font-weight: normal;
+}
+@media (max-width: 1000px) {
+  .sidebar-container .dropdown .dropdown-menu {
+    background-color: white;
+  }
+}

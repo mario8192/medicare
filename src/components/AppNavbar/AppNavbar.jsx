@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logo from "./health.png";
 import "./AppNavbar.css";
 
@@ -14,8 +15,12 @@ const AppNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Browse</Nav.Link>
-            <Nav.Link href="#link">Inventory</Nav.Link>
+            <Link to="/" className="nav-router-link">
+              <Nav.Item>Browse</Nav.Item>
+            </Link>
+            <Link to="/inventory" className="nav-router-link">
+              <Nav.Item>Inventory</Nav.Item>
+            </Link>
             <NavDropdown title="Support" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

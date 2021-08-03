@@ -38,7 +38,8 @@
 
 @media (max-width: 1000px) {
   .nav-link,
-  .nav-item {
+  .nav-item.dropdown,
+  .navbar-nav .nav-router-link {
     background-color: white;
     width: 120px;
     align-self: flex-end;

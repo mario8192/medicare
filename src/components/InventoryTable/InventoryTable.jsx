@@ -5,7 +5,7 @@ import TableRow from "./TableRow/TableRow";
 
 const InventoryTable = () => {
   return (
-    <div className="inventory-table-container">
+    <div className="inventory-table">
       <Table>
         <thead>
           <tr>

@@ -1,7 +1,16 @@
-.inventory-table-container {
-  padding: 100px 0px;
+.inventory-table {
+  margin: 120px auto 0px auto;
   position: relative;
-  margin: auto;
+  padding: 20px;
+  background-color: rgb(250, 250, 250);
+  filter: drop-shadow(0 0 7px rgba(121, 121, 121, 0.397));
+  border-radius: 7px;
   max-width: 60%;
-  min-height: 100vh;
+  min-height: 500px;
+  height: auto;
+}
+@media (max-width: 800px) {
+  .inventory-table {
+    max-width: 80%;
+  }
 }
